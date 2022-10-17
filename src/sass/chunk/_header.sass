@@ -1,0 +1,109 @@
+.header
+  padding-top: 55px
+  padding-bottom: 30px
+  background-image: url(../img/header/background.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+
+  &__container
+    max-width: 675px
+    margin-right: 360px
+
+  &__wrap
+
+  &__top
+    margin-bottom: 260px
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__button
+    padding: 10px 75px
+    background-color: $heavy-metal
+    font-family: 'Comfortaa-Bold', sans-serif
+    font-size: 20px
+    line-height: 22px
+    text-transform: uppercase
+    color: $white
+    cursor: pointer
+    border: none
+    transition: all .4s
+    &:hover
+      background-color: $rio-grande
+      color: $heavy-metal
+
+  &__phone
+    font-family: 'Comfortaa-Bold', sans-serif
+    font-size: 20px
+    line-height: 22px
+    text-decoration: none
+    color: $heavy-metal
+    transition: transform .4s
+    &:hover
+      transform: scale(110%)
+
+  &__middle
+    margin-bottom: 300px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  &__title
+    font-family: 'Comfortaa-Bold', sans-serif
+    font-size: 64px
+    line-height: 71px
+    text-transform: uppercase
+
+  &__text
+    margin-bottom: 20px
+    font-family: 'Comfortaa-Bold', sans-serif
+    font-size: 24px
+    line-height: 27px
+    text-transform: uppercase
+    &:last-child
+      margin-bottom: 0
+
+.bottom
+  display: flex
+  justify-content: center
+
+  &__text
+    max-width: 330px
+    position: relative
+    text-transform: uppercase
+    text-align: center
+
+  &__excert
+    font-family: "Inter-LightItalic", sans-serif
+    font-weight: 300
+    font-size: 32px
+    line-height: 39px
+    color: $bondi-blue
+
+  &__decoration-excert
+    position: absolute
+    font-family: "Comfortaa", sans-serif
+    font-weight: 400
+    font-size: 130px
+    line-height: 145px
+    color: $bondi-blue
+    opacity: 0.3
+
+  &__decoration-excert--top
+    top: -33px
+    left: 0
+    transform: translateY(-100%)
+
+  &__decoration-excert--left
+    top: 0
+    left: -88px
+    transform: translate(-100%, -35%)
+
+.logo
+
+  &__image
+    width: 158px
+    height: auto
+    transition: transform .4s
+    &:hover
+      transform: scale(95%)
