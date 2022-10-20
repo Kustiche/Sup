@@ -382,7 +382,13 @@ body {
 
 .text {
   margin: 0;
-} /*!
+}
+
+.title {
+  margin: 0;
+}
+
+/*!
  * animate.css - https://animate.style/
  * Version - 4.1.1
  * Licensed under the Hippocratic License 2.1 - http://firstdonoharm.dev
@@ -4093,12 +4099,14 @@ body {
   background-image: url(../img/header/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
-.header__container {
-  max-width: 675px;
-  margin-right: 360px;
+.header__wrap {
+  max-width: 670px;
+  margin-left: auto;
 }
 .header__top {
+  max-width: 670px;
   margin-bottom: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4159,6 +4167,7 @@ body {
           align-items: center;
 }
 .header__title {
+  margin-bottom: 20px;
   font-family: "Comfortaa-Bold", sans-serif;
   font-size: 64px;
   line-height: 71px;
