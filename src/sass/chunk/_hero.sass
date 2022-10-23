@@ -1,16 +1,15 @@
 .hero
   padding-top: 425px
-  padding-bottom: 80px
+  padding-bottom: 50px
   background-image: url(../img/hero/background.jpg)
   background-size: cover
   background-repeat: no-repeat
   background-position: center
 
   &__container
-    max-width: 1005px
-    margin-right: 585px
 
   &__wrap
+    max-width: 975px
     position: relative
 
   &__top
@@ -74,6 +73,7 @@
 
   &__characteristic
     width: 570px
+    padding: 30px 0
     display: flex
     justify-content: space-between
     position: relative
@@ -82,14 +82,14 @@
       position: absolute
       width: 100%
       border-top: 2px solid $white
-      top: -30px
+      top: 0
       left: 0
     &::before
       content: ""
       position: absolute
       width: 100%
       border-top: 2px solid $white
-      bottom: -30px
+      bottom: 0
       left: 0
 
   &__list
