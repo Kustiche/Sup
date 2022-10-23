@@ -5,10 +5,15 @@
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+  @media screen and ( max-width: 425px )
+    padding-top: 20px
+    padding-bottom: 20px
 
   &__wrap
     max-width: 670px
     margin-left: auto
+    @media screen and ( max-width: 768px )
+      margin: 0 auto
 
   &__top
     max-width: 670px
@@ -16,6 +21,16 @@
     display: flex
     justify-content: space-between
     align-items: center
+    @media screen and ( max-width: 850px )
+      margin-bottom: 300px
+    @media screen and ( max-width: 600px )
+      margin-bottom: 140px
+      display: flex
+      flex-direction: column
+    @media screen and ( max-width: 540px )
+      margin-bottom: 120px
+    @media screen and ( max-width: 375px )
+      margin-bottom: 60px
 
   &__button
     padding: 10px 75px
@@ -31,6 +46,14 @@
     &:hover
       background-color: $rio-grande
       color: $heavy-metal
+    @media screen and ( max-width: 600px )
+      margin-bottom: 20px
+    @media screen and ( max-width: 425px )
+      margin-bottom: 10px
+      padding: 5px 55px
+      font-size: 19px
+    @media screen and ( max-width: 375px )
+      font-size: 16px
 
   &__phone
     font-family: 'Comfortaa-Bold', sans-serif
@@ -41,12 +64,20 @@
     transition: transform .4s
     &:hover
       transform: scale(110%)
+    @media screen and ( max-width: 425px )
+      font-size: 19px
+    @media screen and ( max-width: 375px )
+      font-size: 16px
 
   &__middle
     margin-bottom: 300px
     display: flex
     flex-direction: column
     align-items: center
+    @media screen and ( max-width: 850px )
+      margin-bottom: 130px
+    @media screen and ( max-width: 540px )
+      margin-bottom: 60px
 
   &__title
     margin-bottom: 20px
@@ -54,6 +85,15 @@
     font-size: 64px
     line-height: 71px
     text-transform: uppercase
+    @media screen and ( max-width: 540px )
+      font-size: 56px
+    @media screen and ( max-width: 470px )
+      font-size: 46px
+    @media screen and ( max-width: 425px )
+      margin-bottom: 0
+      font-size: 44px
+    @media screen and ( max-width: 375px )
+      font-size: 37px
 
   &__text
     margin-bottom: 20px
@@ -63,10 +103,19 @@
     text-transform: uppercase
     &:last-child
       margin-bottom: 0
+    @media screen and ( max-width: 540px )
+      font-size: 21px
+    @media screen and ( max-width: 425px )
+      margin-bottom: 0
+      font-size: 19px
+    @media screen and ( max-width: 375px )
+      font-size: 16px
 
 .bottom
   display: flex
   justify-content: center
+  @media screen and ( max-width: 600px )
+    display: none
 
   &__text
     max-width: 330px
@@ -89,18 +138,35 @@
     line-height: 145px
     color: $bondi-blue
     opacity: 0.3
+    @media screen and ( max-width: 768px )
+      font-size: 90px
 
   &__decoration-excert--top
     top: -33px
     left: 0
     transform: translateY(-100%)
+    @media screen and ( max-width: 1024px )
+      left: 52%
+    @media screen and ( max-width: 768px )
+      top: 10px
 
   &__decoration-excert--left
     top: 0
     left: -88px
     transform: translate(-100%, -35%)
+    @media screen and ( max-width: 1024px )
+      top: -33px
+      left: 2%
+      transform: translate(-50%, -100%)
+    @media screen and ( max-width: 768px )
+      top: 10px
+      left: 16%
 
 .logo
+  @media screen and ( max-width: 600px )
+    margin-bottom: 20px
+  @media screen and ( max-width: 425px )
+    margin-bottom: 10px
 
   &__image
     width: 158px
@@ -108,3 +174,5 @@
     transition: transform .4s
     &:hover
       transform: scale(95%)
+    @media screen and ( max-width: 425px )
+      width: 130px
