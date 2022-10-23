@@ -1,0 +1,104 @@
+.hero
+  padding-top: 425px
+  padding-bottom: 80px
+  background-image: url(../img/hero/background.jpg)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+  &__container
+    max-width: 1005px
+    margin-right: 585px
+
+  &__wrap
+    position: relative
+
+  &__top
+    margin-bottom: 600px
+    display: flex
+    justify-content: space-between
+
+  &__content
+    max-width: 290px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+  &__content--right
+    margin-right: 310px
+    position: relative
+    &::after
+      content: ""
+      position: absolute
+      width: 100%
+      border-top: 2px solid $white
+      top: 99%
+      left: 0
+
+  &__text
+    font-family: "Inter-Regular", sans-serif
+    font-weight: 400
+
+  &__text--push
+    margin-bottom: 100px
+
+  &__inner
+    margin-left: auto
+    display: flex
+    align-items: center
+    flex-direction: column
+
+  &__image
+    width: 70px
+    height: auto
+    margin-bottom: 10px
+
+  &__excerpt
+    font-family: "Inter-Regular", sans-serif
+    font-weight: 400
+
+  &__picture
+    width: 227px
+    height: auto
+    position: absolute
+    right: 0
+    top: 80px
+    transform: translateY(-50%)
+
+  &__bottom
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__title
+
+  &__characteristic
+    width: 570px
+    display: flex
+    justify-content: space-between
+    position: relative
+    &::after
+      content: ""
+      position: absolute
+      width: 100%
+      border-top: 2px solid $white
+      top: -30px
+      left: 0
+    &::before
+      content: ""
+      position: absolute
+      width: 100%
+      border-top: 2px solid $white
+      bottom: -30px
+      left: 0
+
+  &__list
+    margin: 0
+    padding: 0
+    list-style: none
+
+  &__item
+    margin-bottom: 15px
+    text-transform: uppercase
+    &:last-child
+      margin-bottom: 0
