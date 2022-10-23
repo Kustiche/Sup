@@ -4420,11 +4420,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.hero__container {
-  max-width: 1005px;
-  margin-right: 585px;
-}
 .hero__wrap {
+  max-width: 975px;
   position: relative;
 }
 .hero__top {
