@@ -4254,12 +4254,12 @@ body {
   line-height: 71px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 575px) {
   .header__title {
     font-size: 56px;
   }
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 505px) {
   .header__title {
     font-size: 46px;
   }
@@ -4270,9 +4270,14 @@ body {
     font-size: 44px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 405px) {
   .header__title {
     font-size: 37px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__title {
+    font-size: 34px;
   }
 }
 .header__text {
