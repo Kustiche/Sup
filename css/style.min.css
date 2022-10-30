@@ -4775,4 +4775,106 @@ body {
     margin-bottom: 10px;
   }
 }
+
+.price {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.price__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.price__inner {
+  max-width: 505px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.price__content {
+  margin-bottom: 50px;
+  max-width: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.price__title {
+  margin-bottom: 50px;
+  color: #0093A1;
+}
+.price__heading {
+  margin: 0;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #262C27;
+}
+.price__heading--blue {
+  color: #0093A1;
+}
+.price__text {
+  margin-bottom: 25px;
+  font-family: "Inter-Regular", sans-serif;
+  font-weight: 400;
+  color: #262C27;
+}
+.price__text:last-child {
+  margin-bottom: 0;
+}
+.price__button {
+  font-family: "Comfortaa-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #0093A1;
+  padding: 20px 200px;
+  border: 2px solid #0093A1;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.price__button:hover {
+  background-color: #0093A1;
+  color: #FFFFFF;
+}
+.price__excerpt {
+  position: absolute;
+  color: #262C27;
+  bottom: 15%;
+  right: -50%;
+}
+.price__money {
+  position: relative;
+  font-size: 35px;
+  line-height: 42px;
+}
+.price__image {
+  position: absolute;
+  top: -190%;
+  left: -50%;
+  z-index: -1;
+}
+.price__picture {
+  width: 600px;
+  height: auto;
+}
 /*# sourceMappingURL=style.min.css.map */
