@@ -1,0 +1,78 @@
+.price
+  padding-top: 150px
+  padding-bottom: 150px
+
+  &__wrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__inner
+    max-width: 505px
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+
+  &__content
+    margin-bottom: 50px
+    max-width: 290px
+    display: flex
+    flex-direction: column
+    position: relative
+
+  &__title
+    margin-bottom: 50px
+    color: $bondi-blue
+
+  &__heading
+    margin: 0
+    margin-bottom: 5px
+    text-transform: uppercase
+    color: $heavy-metal
+
+  &__heading--blue
+    color: $bondi-blue
+
+  &__text
+    margin-bottom: 25px
+    font-family: "Inter-Regular", sans-serif
+    font-weight: 400
+    color: $heavy-metal
+    &:last-child
+      margin-bottom: 0
+
+  &__button
+    font-family: 'Comfortaa-Bold', sans-serif
+    font-size: 40px
+    line-height: 45px
+    text-transform: uppercase
+    color: $bondi-blue
+    padding: 20px 200px
+    border: 2px solid $bondi-blue
+    background-color: $white
+    cursor: pointer
+    transition: all .4s
+    &:hover
+      background-color: $bondi-blue
+      color: $white
+
+  &__excerpt
+    position: absolute
+    color: $heavy-metal
+    bottom: 15%
+    right: -50%
+
+  &__money
+    position: relative
+    font-size: 35px
+    line-height: 42px
+
+  &__image
+    position: absolute
+    top: -190%
+    left: -50%
+    z-index: -1
+
+  &__picture
+    width: 600px
+    height: auto
