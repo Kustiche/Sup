@@ -1,34 +1,76 @@
 .price
   padding-top: 150px
   padding-bottom: 150px
+  @media screen and ( max-width: 768px )
+    padding-top: 75px
+    padding-bottom: 75px
+  @media screen and ( max-width: 425px )
+    padding-top: 35px
+    padding-bottom: 35px
 
   &__wrap
     display: flex
     justify-content: space-between
     align-items: center
+    @media screen and ( max-width: 1040px )
+      flex-direction: column
 
   &__inner
     max-width: 505px
     display: flex
     flex-direction: column
     align-items: flex-start
+    @media screen and ( max-width: 1040px )
+      max-width: 100%
+      margin-bottom: 20px
+      align-items: center
+    @media screen and ( max-width: 675px )
+      max-width: 505px
+      width: 100%
+      margin-bottom: 80px
+    @media screen and ( max-width: 535px )
+      margin-bottom: 30px
 
   &__content
     margin-bottom: 50px
     max-width: 290px
     display: flex
     flex-direction: column
+    align-items: flex-start
     position: relative
+    @media screen and ( max-width: 1040px )
+      max-width: 1010px
+    @media screen and ( max-width: 675px )
+      margin-bottom: 80px
+    @media screen and ( max-width: 535px )
+      max-width: 290px
+      margin-bottom: 210px
+    @media screen and ( max-width: 425px )
+      margin-bottom: 180px
 
   &__title
     margin-bottom: 50px
     color: $bondi-blue
+    @media screen and ( max-width: 768px )
+      font-size: 55px
+    @media screen and ( max-width: 675px )
+      margin: 0 auto
+      margin-bottom: 30px
+    @media screen and ( max-width: 490px )
+      font-size: 45px
+    @media screen and ( max-width: 425px )
+      font-size: 34px
 
   &__heading
     margin: 0
     margin-bottom: 5px
     text-transform: uppercase
     color: $heavy-metal
+    @media screen and ( max-width: 768px )
+      font-size: 16px
+    @media screen and ( max-width: 425px )
+      font-size: 14px
+      line-height: 20px
 
   &__heading--blue
     color: $bondi-blue
@@ -40,6 +82,11 @@
     color: $heavy-metal
     &:last-child
       margin-bottom: 0
+    @media screen and ( max-width: 768px )
+      font-size: 16px
+    @media screen and ( max-width: 425px )
+      font-size: 14px
+      line-height: 20px
 
   &__button
     font-family: 'Comfortaa-Bold', sans-serif
@@ -55,24 +102,64 @@
     &:hover
       background-color: $bondi-blue
       color: $white
+    @media screen and ( max-width: 768px )
+      font-size: 30px
+      line-height: 35px
+    @media screen and ( max-width: 675px )
+      margin-right: auto
+      padding: 10px 70px
+    @media screen and ( max-width: 535px )
+      margin-right: 0
+    @media screen and ( max-width: 425px )
+      font-size: 25px
+      line-height: 30px
 
   &__excerpt
     position: absolute
     color: $heavy-metal
     bottom: 15%
     right: -50%
+    transform: translateX(-50%)
+    @media screen and ( max-width: 1040px )
+      bottom: 11%
+      right: 5%
+    @media screen and ( max-width: 675px )
+      bottom: -35%
+      right: 20%
+    @media screen and ( max-width: 535px )
+      bottom: -25%
+      right: 20%
+    @media screen and ( max-width: 425px )
+      right: 24%
 
   &__money
     position: relative
     font-size: 35px
     line-height: 42px
+    @media screen and ( max-width: 768px )
+      font-size: 30px
+    @media screen and ( max-width: 425px )
+      font-size: 25px
 
   &__image
     position: absolute
+    width: 201px
+    height: auto
     top: -190%
     left: -50%
     z-index: -1
+    @media screen and ( max-width: 768px )
+      width: 170px
+      top: -190%
+      left: -47%
+    @media screen and ( max-width: 425px )
+      width: 140px
+      top: -183%
 
   &__picture
     width: 600px
     height: auto
+    @media screen and ( max-width: 1240px )
+      width: 500px
+    @media screen and ( max-width: 1040px )
+      width: 100%
