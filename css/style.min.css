@@ -4842,7 +4842,7 @@ body {
 }
 @media screen and (max-width: 535px) {
   .price__inner {
-    margin-bottom: 30px;
+    margin-bottom: 0;
   }
 }
 .price__content {
@@ -4878,7 +4878,7 @@ body {
 }
 @media screen and (max-width: 425px) {
   .price__content {
-    margin-bottom: 180px;
+    margin-bottom: 160px;
   }
 }
 .price__title {
@@ -4904,6 +4904,7 @@ body {
 @media screen and (max-width: 425px) {
   .price__title {
     font-size: 34px;
+    margin-bottom: 0;
   }
 }
 .price__heading {
@@ -4944,6 +4945,7 @@ body {
   .price__text {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 10px;
   }
 }
 .price__button {
